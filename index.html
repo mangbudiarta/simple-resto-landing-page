@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurant Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand text-uppercase" href="#">Restaurant</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Restaurants</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#burger">Burger Restaurant</a></li>
+                <li><a class="dropdown-item" href="#ramen">Ramen Restaurant</a></li>
+                <li><a class="dropdown-item" href="#pizza">Pizaa Restaurant</a></li>
+                <li><a class="dropdown-item" href="#seafood">Seafood Restaurant</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <header class="container" id="home">
+      <div class="row align-items-center">
+        <div class="col-lg-6 d-none d-lg-block">
+          <h1 class="h1" id="title-head">
+            RESTAURANT <span class="text-danger">Of</span> THE WORLD
+          </h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+            nostrum! Veniam eius aliquam soluta cum!
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/home.jpg" alt="restaurant" class="img-fluid" />
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <main>
+      <!-- Burger Restaurant Start -->
+      <section class="content" id="burger">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2 order-md-1">
+            <img
+              src="images/burger.jpg"
+              alt="burger restaurant"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8 pt-3 restaurant-item col-10">
+                <h2 class="h2">BURGER RESTAURANT</h2>
+                <img
+                  src="images/burger-icon.png"
+                  alt="burger icon"
+                  class="restaurant-icon d-none d-lg-inline-block"
+                />
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Suscipit recusandae rem, provident alias aperiam eum ea ipsum
+                  enim veniam fugiat nam odio aut molestias minus dolor iste
+                  mollitia eos quam ad saepe veritatis, dolore, illo rerum
+                  reiciendis. Ea, libero!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Burger Restaurant End -->
+
+      <!-- Ramen Restaurant Start -->
+      <section class="content" id="ramen">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8 pt-3 restaurant-item col-10">
+                <h2 class="h2">RAMEN RESTAURANT</h2>
+                <img
+                  src="images/ramen-icon.png"
+                  alt="ramen icon"
+                  class="restaurant-icon d-none d-lg-inline-block"
+                />
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Suscipit recusandae rem, provident alias aperiam eum ea ipsum
+                  enim veniam fugiat nam odio aut molestias minus dolor iste
+                  mollitia eos quam ad saepe veritatis, dolore, illo rerum
+                  reiciendis. Ea, libero!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/ramen.jpg"
+              alt="ramen restaurant"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Ramen Restaurant End -->
+
+      <!-- Pizza Restaurant Start -->
+      <section class="content" id="pizza">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2 order-md-1">
+            <img
+              src="images/pizza.jpg"
+              alt="pizza restaurant"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8 pt-3 restaurant-item col-10">
+                <h2 class="h2">PIZZA RESTAURANT</h2>
+                <img
+                  src="images/pizza-icon.png"
+                  alt="pizza icon"
+                  class="restaurant-icon d-none d-lg-inline-block"
+                />
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Suscipit recusandae rem, provident alias aperiam eum ea ipsum
+                  enim veniam fugiat nam odio aut molestias minus dolor iste
+                  mollitia eos quam ad saepe veritatis, dolore, illo rerum
+                  reiciendis. Ea, libero!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pizza Restaurant End -->
+
+      <!-- Seafood Restaurant Start -->
+      <section class="content" id="seafood">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8 pt-3 restaurant-item col-10">
+                <h2 class="h2">SEAFOOD RESTAURANT</h2>
+                <img
+                  src="images/seafood-icon.png"
+                  alt="Seafood icon"
+                  class="restaurant-icon d-none d-lg-inline-block"
+                />
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Suscipit recusandae rem, provident alias aperiam eum ea ipsum
+                  enim veniam fugiat nam odio aut molestias minus dolor iste
+                  mollitia eos quam ad saepe veritatis, dolore, illo rerum
+                  reiciendis. Ea, libero!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/seafood.jpg"
+              alt="Seafood restaurant"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Ramen Restaurant End -->
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        var nav = document.querySelector("#navbar");
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 45) {
+            nav.classList.add("scrolled");
+          } else {
+            nav.classList.remove("scrolled");
+          }
+        });
+    </script>
+  </body>
+</html>

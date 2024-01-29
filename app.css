@@ -1,0 +1,69 @@
+body{
+    font-family: 'Nunito', sans-serif !important;
+    background-color: #c2ded1;
+    color: #354259;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#navbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .nav-link:hover {
+    color: #354259;
+}
+
+#navbar .navbar-brand{
+    font-size: 1.5rem;
+    color: #354259;
+}
+
+.navbar.scrolled{
+    background-color:#acffd7;
+}
+#title-head {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+header p{
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.restaurant-icon {
+    width: 50px;
+}
+
+.restaurant-item p, #description-head{
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin: 100px 0;
+}
+
+
+@media (max-width:1200px) {
+    #title-head {
+        font-size: 3rem;
+    }
+    .nav-link {
+        font-size: 1.25rem;
+    }
+}
